@@ -1,0 +1,145 @@
+@media (max-width:1400px){
+    #features .container .features-content h1{
+        padding-top: 40px;
+        color: var(--text-black);
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    #features .container .features-content p{
+        color: var(--text-gery);
+        font-size: 1.2rem;
+    }
+#features .container .box i{
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: var(--text-black);
+}
+#features .container .box h1{
+    font-size: 1.3rem;
+    color: var(--text-black);
+    margin: 1rem;
+}
+#features .container .box p{
+    font-size: 1rem;
+    text-align: start;
+}
+#support .sup-content h1{
+    color: var(--text-main);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#support .sup-content p{
+    color: var(--text-white);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+#support .sup-content form input{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 20px 0px;
+    margin-right: 12px;
+}
+.button{
+    background: var(--bg-main);
+    color: var(--text-black);
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px 0px;
+    font-weight: bold;
+}
+}
+@media (max-width:1200px){
+    #home .left-row .content h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--text-black);
+        margin: 15px 0;
+    }
+    #home .left-row .content h3{
+        color: var(--text-black);
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+    #home .left-row .content p{
+        color: var(--text-gery);
+        margin: 20px 0;
+        font-size: 1rem;
+    }
+    #home .left-row .content .icon i{
+        font-size: 2rem;
+        color: var(--text-black);
+        margin-right: 1.5rem;
+    }
+    #features .container .features-content h1{
+        padding-top: 40px;
+        color: var(--text-black);
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    #features .container .features-content p{
+        color: var(--text-gery);
+        font-size: 1.2rem;
+    }
+    #features .container .box{
+        min-width: 18rem;
+        min-height: 18rem;
+        margin: 20px;
+        padding: 30px;
+    }
+    #features .container .box i{
+        font-size: 2.5rem;
+        margin: 1rem;
+        color: var(--text-black);
+    }
+    #features .container .box h1{
+        font-size: 1.1rem;
+        color: var(--text-black);
+        margin: 1rem;
+    }
+    #features .container .box p{
+        font-size: 1rem;
+        text-align: start;
+    }
+    #support .social i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        padding: .5rem;
+        background: var(--bg-main);
+    }
+}
+@media (max-width: 992px) {
+    #support .sup-content h1{
+        color: var(--text-main);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #support .sup-content p{
+        color: var(--text-white);
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    #support .sup-content form input{
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        border-radius: 25px 0px;
+        margin: 12px;
+    }
+    .button{
+        background: var(--bg-main);
+        color: var(--text-black);
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 25px 0px;
+        font-weight: bold;
+    }
+}
