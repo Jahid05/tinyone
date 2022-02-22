@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tinyone</title>
+    <title>Tinyone</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="/img/header/favicon.png" type="image/x-icon">
+    <!-- AOS Javascript -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Bootstrap-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!--Fontawsome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!--Style CSS-->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Responshiv CSS -->
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
   <!-- Header -->
   <section id="header">
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-  <div class="container mt-5">
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
     <a class="navbar-brand" href="#">
       <img src="./img/header/logo.png" alt="Logo">
     </a>
@@ -47,11 +50,11 @@
   </div>
 </nav>
 <!-- Home Section-->
-<div id="home" class="container">
+<div id="home" class="container" data-aos="zoom-in">
   <div class="row">
-    <div class="col-md-6 mt-5">
+    <div class="col-md-6">
       <div class="left-row">
-        <div class="content">
+        <div class="content mt-5">
           <h1>Inspire your inspiration</h1>
           <h3>Simple to use for your app, products showcase and your inspiration</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem porro optio natus, recusandae temporibus ut distinctio excepturi quidem accusamus molestias. Consequatur itaque nostrum commodi officia inventore nam suscipit architecto facilis?</p>
@@ -63,7 +66,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 mt-5">
+    <div class="col-md-6">
       <div class="right-row">
         <img src="./img/header/ipod.png" class="img-fluid mb-5" alt="I-Pod">
       </div>
@@ -73,49 +76,49 @@
 </section>
 <!-- Features Section -->
 <section id="features">
-  <div class="container">
-    <div class="features-content text-center">
+  <div class="container p-5">
+    <div class="features-content text-center" data-aos="zoom-in-up">
       <h1>Tinyone features</h1>
       <p class="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, molestias eveniet? Placeat ex reiciendis repudiandae corporis pariatur vel iste dolorum.</p>
     </div>
     <div class="row mt-3">
       <div class="col-sm-auto col-md-6 col-lg-4">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
           <i class="fas fa-mobile-alt"></i>
           <h1>Fully Responsive</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis dicta voluptas.</p>
         </div>
       </div>
       <div class="col-sm-auto col-md-6 col-lg-4">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
           <i class="fas fa-lemon"></i>
           <h1>Fully Layered PSD</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis dicta voluptas.</p>
         </div>
       </div>
       <div class="col-sm-auto col-md-6 col-lg-4">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
           <i class="fas fa-folder"></i>
           <h1>Font Awesome Icons</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis dicta voluptas.</p>
         </div>
       </div>
       <div class="col-sm-auto col-md-6 col-lg-4">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
           <i class="fas fa-code"></i>
           <h1>HTML3 & CSS3</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis dicta voluptas.</p>
         </div>
       </div>
       <div class="col-sm-auto col-md-6 col-lg-4">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
           <i class="fas fa-envelope"></i>
           <h1>Email Template</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis dicta voluptas.</p>
         </div>
       </div>
       <div class="col-sm-auto col-md-6 col-lg-4">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
           <i class="fas fa-bookmark"></i>
           <h1>Free to download</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veritatis dicta voluptas.</p>
@@ -127,7 +130,7 @@
 <!-- Support Section -->
 <section id="support">
   <div class="container">
-    <div class="sup-content">
+    <div class="sup-content" data-aos="zoom-in">
       <h1>Keep in touch with us</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit omnis sed, ipsum soluta ad quae ratione voluptatum dicta! Molestias.</p>
       <form action="">
@@ -135,17 +138,18 @@
         <button class="button">SUBMIT</button>
       </form>
     </div>
-    <div class="social">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-google-plus-g"></i>
-      <i class="fab fa-pinterest-p"></i>
+    <div class="social" data-aos="zoom-in">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href=""><i class="fab fa-pinterest-p"></i></a>
     </div>
   </div>
 </section>
 <!-- Footer Section-->
 <div id="footer">
-  <div class="container">
+  <div class="container" data-aos="zoom-in">
     <div class="footer-content">
       <div class="row">
         <div class="col-md-3 col-sm-6 mb-5">
@@ -188,5 +192,15 @@
 <!-- Js File -->
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    AOS.init(
+    {
+        offset: 300,
+        duration: 1000,
+    }
+  );
+  </script>
 </body>
 </html>
